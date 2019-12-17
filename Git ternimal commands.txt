@@ -16,3 +16,7 @@ git config -global user.email "email@example.com"
 git commit -m ""commit msg
 
 5) git push origin master
+
+---------------------------------------
+
+This is a new line inserted

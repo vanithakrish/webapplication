@@ -1,0 +1,19 @@
+@FindBys( {
+   @FindBy(id= "email")
+   @FindBy(name = "info")
+} )
+private List<WebElement> elementsWithBoth_class1ANDclass2;
+
+Here List elementsWithBothclass1ANDclass2 will contain any
+ WebElement which satisfies both criteria.
+----------------------------------------------------------------
+
+@FindAll({
+   @FindBy(id = "email")
+   @FindBy(id = "mail")
+})
+private List<WebElement> elementsWithEither_class1ORclass2  
+Here List elementsWithEither_class1ORclass2 will contain all those WebElement that satisfies any one of the criteria.
+----------------------------------------------------------
+@CacheLookUp-Cache memory storage
+

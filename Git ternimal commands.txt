@@ -1,0 +1,18 @@
+create a project in your repository
+https://git-scm.com/download/win
+git bash here inside the project
+1)git init
+2)git remote add origin URL(git@github.com:Kalairithu02/WebApplication.git)
+3)git add .
+4)git commit -m "commit msg"
+5) git push -u origin master
+
+4) git commit -m "commit msg"
+error 
+git config -global user.name "Barkot Efuye"
+
+git config -global user.email "email@example.com"
+
+git commit -m ""commit msg
+
+5) git push origin master
